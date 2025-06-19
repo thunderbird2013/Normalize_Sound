@@ -1,0 +1,15 @@
+# VSCode-Projektordner
+.vscode/
+
+# ffmpeg-Verzeichnis oder -Datei
+ffmpeg/
+ffmpeg.exe
+
+# Konfigurationsdatei
+config.ini
+
+# Kompilierte ausführbare Datei
+normalize.exe
+
+# Log- oder temporäre Dateien
+failed_jobs.txt

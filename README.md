@@ -1,5 +1,8 @@
 # MP3 Normalizer
 
+![Konsolen-Demo](./capture/screen.gif)
+
+
 Ein Multithreaded-Tool zur Normalisierung der Lautstärke von `.mp3`-Dateien unter Windows. Das Programm nutzt `ffmpeg`, um alle Audiodateien in einem Verzeichnis auf eine einheitliche Lautstärke zu bringen (Standard: -14 LUFS).
 
 ## 🛠 Funktionen

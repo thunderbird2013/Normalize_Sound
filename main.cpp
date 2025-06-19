@@ -1,17 +1,18 @@
 /*
  * MP3 Normalizer – Multithreaded Audio Normalization Tool
  *
- * Autor        : Matthias Stoltze
- * Datum        : 19.06.2025
- * Uhrzeit      : 18:00 Uhr
- * Version      : 1.0
- * Beschreibung : Dieses Programm normalisiert die Lautstärke von MP3-Dateien mit ffmpeg,
+ * Autor         : Matthias Stoltze
+ * Datum         : 19.06.2025
+ * Uhrzeit       : 18:00 Uhr
+ * Version       : 1.0
+ * Beschreibung  : Dieses Programm normalisiert die Lautstärke von MP3-Dateien mit ffmpeg,
  *                unterstützt Multithreading und visuelles Monitoring in der Konsole.
  *
- * Lizenz       : Dieses Projekt ist frei verwendbar (Free License).
+ * Lizenz        : Dieses Projekt ist frei verwendbar (Free License).
  *                Nutzung auf eigene Verantwortung. Keine Garantie oder Haftung.
  *
  * Abhängigkeiten: ffmpeg, Windows API, C++17
+ * Compiler      : Clang++ 64bit hat man die Besten Ergebnisse erzielt.
  */
 
 #include <windows.h>

@@ -353,8 +353,6 @@ int wmain(int argc, wchar_t* argv[]) {
         }
     }
 
-    //std::wcout << L"DEBUG: Gefüllte Map: " << jobStatusMap.size() << L" Dateien\n";
-
 
     std::vector<std::thread> threads;
     for (int i = 0; i < maxThreads; ++i) {
@@ -365,8 +363,6 @@ int wmain(int argc, wchar_t* argv[]) {
 
     {
         std::unique_lock<std::mutex> lock(queueMutex);
-        //std::wcout << L"DEBUG: jobStatusMap enthält " << jobStatusMap.size() << L" Einträge\n";
-        //std::wcout.flush();
         done = true;
     }
     cv.notify_all();
